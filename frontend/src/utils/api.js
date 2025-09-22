@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:5000';
-const AI_URL = 'http://localhost:5001';
+const BACKEND_URL = 'https://product-transparency-website-backend.onrender.com';
+const AI_URL = 'https://product-transparency-website.onrender.com';
 
 // Product operations
 export const createProduct = (productData) => {
